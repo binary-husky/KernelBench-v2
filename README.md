@@ -83,6 +83,14 @@ pip install -r requirements.txt
 pip install -e . 
 ```
 
+> **uv set up** (GPU required):
+> ```bash
+uv venv --python=3.10
+source ./.venv/bin/activate
+uv pip install -r requirements.txt
+uv pip install -e .
+> ```
+
 > **Docker Quick-Start** (GPU required):
 > ```bash
 > # 1. Build image & launch dev container
